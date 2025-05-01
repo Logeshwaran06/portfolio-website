@@ -1,0 +1,98 @@
+<<<<<<< HEAD
+# Ignore node_modules
+node_modules/
+
+# Ignore build output
+dist/
+
+# Ignore environment variables
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore other files and directories
+.vscode/
+*.log
+*.tmp
+
+# Ignore user-specific files
+*.lnk
+*.ini
+*.DAT
+*.blf
+*.regtrans-ms
+
+# Ignore parent directory files
+../../../../.codegpt/
+../../../../.config/
+../../../../.gitconfig
+../../../../.lesshst
+../../../../.node_repl_history
+../../../../.ollama/
+../../../../.th-client/
+../../../../.vscode/
+../../../../.yarnrc
+../../../../AppData/
+../../../../Contacts/
+../../../MongoDBCompass.lnk
+../../../Profile 1 - Edge.lnk
+../../../Python Project/
+../../../React App creation step.txt
+../../CURD/
+../../FYP UI design/
+../package-lock.json
+../../e-commerce/
+../../../Telegram.lnk
+../../../Visual Studio Code.lnk
+../../../desktop.ini
+../../../../Documents/
+../../../../Downloads/
+../../../../Favorites/
+../../../../FirstProject/
+../../../../Links/
+../../../../Music/
+../../../../NTUSER.DAT
+../../../../NTUSER.DAT{93348abc-c7a5-11ef-bc69-645d8617d08b}.TM.blf
+../../../../NTUSER.DAT{93348abc-c7a5-11ef-bc69-645d8617d08b}.TMContainer00000000000000000001.regtrans-ms
+../../../../NTUSER.DAT{93348abc-c7a5-11ef-bc69-645d8617d08b}.TMContainer00000000000000000002.regtrans-ms
+../../../../Pictures/
+../../../../Portfolio-Giveway.zip
+../../../../Portfolio-Giveway/
+../../../../Saved Games/
+../../../../Searches/
+../../../../Videos/
+../../../../my-app/
+../../../../my-app1/
+../../../../my-project/
+../../../../my-projects/
+../../../../ntuser.dat.LOG1
+../../../../ntuser.dat.LOG2
+../../../../ntuser.ini
+=======
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+>>>>>>> 919fbc3 (Initial commit)
