@@ -451,6 +451,51 @@ vr{
   color: #ff9800;
 }
 
+@media (min-width: 1440px){
+   html, body{
+    width: 100%;
+    overflow-x: hidden;
+    font-size:20px;
+  } 
+
+  .header{
+    height: auto;
+    font-size: larger;
+  }
+
+  .home{
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    position: relative;
+    top: 80px;
+  }
+
+  .contact{
+    position: relative;
+    left: 30px;
+  }
+
+  .button, .button1{
+    font-size: large;
+  }
+
+  input::placeholder{
+    font-size: large;
+    padding: 10px;
+  }
+
+  textarea::placeholder{
+    font-size: larger; 
+  }
+
+  .header{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    
+  }
+}
+
 @media (max-width: 1440px) and (min-width: 1181px) {
   html, body{
     width: 100%;
@@ -494,11 +539,6 @@ vr{
     z-index: 10;
     
   }
-
-
-
-
-
 }
 
 @media (max-width: 1180px) and (min-width: 1151px) {
